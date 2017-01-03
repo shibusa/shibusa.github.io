@@ -12,9 +12,11 @@ body{
 
 /*Container positioning*/
 header {
-  margin-top:5px;
-  margin-left:25px;
+  left:3%;
+  top:2.5%;
+  position:fixed;
   float:left;
+  z-index: 1;
 }
 
 aside {

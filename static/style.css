@@ -14,16 +14,8 @@ body{
 header {
   padding-top:5px;
   padding-left:25px;
-  width:600px;
-  background-color: white;
   position:fixed;
   float:left;
-}
-
-#empty {
-  float:left;
-  width:600px;
-  height:230px;
 }
 
 aside {

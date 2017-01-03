@@ -1,0 +1,73 @@
+*{
+  color:black;
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  min-width: 600px;
+  height:100%;
+  width:100%;
+}
+
+/*Container positioning*/
+header {
+  margin-top:5px;
+  margin-left:25px;
+  float:left;
+}
+
+aside {
+  width:600px;
+  float:right;
+  overflow:auto;
+}
+
+aside iframe{
+  height:337.5px;
+  width:600px;
+}
+
+/*Font Related*/
+header h1 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 100px;
+  font-weight:bold;
+}
+
+article h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+article h1 a{
+  text-decoration: none;
+}
+
+article h1 a:hover{
+  text-decoration: underline;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight:bold;
+  text-align: center;
+}
+
+p, header h3{
+  font-family: 'Oswald', sans-serif;
+  font-size:17px;
+  font-weight:normal;
+}
+
+section i{
+  color:black;
+}
+
+.note {
+  text-align: center;
+  font-style: italic;
+  font-size:13px;
+}

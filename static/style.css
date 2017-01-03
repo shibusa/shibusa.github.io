@@ -12,11 +12,18 @@ body{
 
 /*Container positioning*/
 header {
-  left:3%;
-  top:2.5%;
+  padding-top:5px;
+  padding-left:25px;
+  width:600px;
+  background-color: white;
   position:fixed;
   float:left;
-  z-index: 1;
+}
+
+#empty {
+  float:left;
+  width:400px;
+  height:230px;
 }
 
 aside {

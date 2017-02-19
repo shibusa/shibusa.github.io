@@ -58,7 +58,7 @@ header a:link, header a:visited, nav a:link, nav a:visited {
   text-decoration:none;
 }
 
-nav a:focus, #right h2 a {
+nav a:focus, #right h2 a, article a {
   color:black;
   text-decoration: underline;
 }

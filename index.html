@@ -15,18 +15,25 @@
 	</head>
 	<body class="container-fluid">
 		<div class="row">
-			<header class="col-md-6">
-				<h1>SHIRFENG CHANG</h1>
-				<h2>Dev Ops Technician/Full Stack Developer</h2>
-				<section>
-					<a href="https://linkedin.com/in/shirfeng-chang"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-					<a href="mailto:shirfeng.chang@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-					<a href="https://github.com/shibusa"><i class="fa fa-github" aria-hidden="true"></i></a>
-				</section>
-			</header>
+			<section id="left" class="col-md-6">
+				<header>
+					<h1><a href="#!/">SHIRFENG CHANG</a></h1>
+					<h2>
+						Dev Ops Technician/Full Stack Developer
+						<a href="https://linkedin.com/in/shirfeng-chang"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						<a href="mailto:shirfeng.chang@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+						<a href="https://github.com/shibusa"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</h2>
+				</header>
+				<nav>
+						<a href="#!/projects">Projects</a>
+						<a href="#!/tools">Tools</a>
+						<a href="#!/others">Others</a>
+				</nav>
+			</section>
 
-			<aside class="col-md-6" ng-view>
-			</aside>
+			<section id="right" class="col-md-6" ng-view>
+			</section>
 		</div>
 	</body>
 </html>

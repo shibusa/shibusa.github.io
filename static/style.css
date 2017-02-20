@@ -23,7 +23,7 @@ p {
   top: 0;
 }
 
-h2, nav {
+#left h2, nav {
   text-align: center;
   width:307px;
 }

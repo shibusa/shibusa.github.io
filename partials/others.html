@@ -1,14 +1,14 @@
 <h1>Other</h1>
 <article>
-  <h2><a href="https://github.com/shibusa/vagrantlab">Vagrant Lab (Virtualbox Lab 2.0)</a></h2>
-  <p><a href="https://www.vagrantup.com/">Vagrant</a> is an absolutely spectacular tool.  It works in conjunction with <a href="https://www.virtualbox.org/">Virtualbox</a> and helps me spin up multiple fully configured virtual machines in minutes.  With that I'm able to test out new infrastructure designs, new software, and continually improve on automation.</p>
+  <h2><a href="https://github.com/shibusa/vagrantlab">Vagrant Lab (VirtualBox Lab 2.0)</a></h2>
+  <p><a href="https://www.vagrantup.com/">Vagrant</a> is an absolutely spectacular tool.  It works in conjunction with <a href="https://www.virtualbox.org/">VirtualBox</a> and helps me spin up multiple fully configured virtual machines in minutes.  With that I'm able to test out new infrastructure designs, new software, and continually improve on automation.</p>
 
-  <p>Right now I'm using it to simulate a production <a href="https://www.chef.io/chef/">Chef</a> and <a href="https://www.docker.com/">Docker</a> lab.  Each virtual machine will be thought of as a bare metal system.  One system serves as the Chef server and manages the other virtual machines on the OS level.  The remaining virtual machines will act as Chef clients with Docker running in swarm configuration.</p>
+  <p>Right now I'm using it to simulate a production <a href="https://www.chef.io/chef/">Chef</a> and <a href="https://www.docker.com/">Docker</a> environment.  Each virtual machine will be thought of as a bare metal system.  One system serves as the Chef server and manages the other virtual machines on the OS level.  The remaining virtual machines will act as Chef clients with Docker running in swarm configuration.  This allows for the DevOps teams to maintain the systems and the developers to maintain the Docker containers as needed.</p>
 </article>
 
 <article>
   <h2>VirtualBox Lab 1.0</h2>
   <p><a href="https://github.com/shibusa/vboxguest">VirtualBox Guest machine script</a> - setup script for a Centos test server written in BASH</p>
   <p><a href="https://github.com/shibusa/vboxvsrx">Juniper vSRX VirtualBox script</a> - Juniper vSRX virtual firewall VM setup in VirtualBox written in BASH</p>
-  <p>Old lab scripts to get virtual lab environments up and running faster.  Vagrant has sped up the setup process for my Centos VMs significantly.</p>
+  <p>Old lab scripts to get virtual machines up and running faster.  VirtualBox Guest script has since been revised for Vagrant provisioning.</p>
 </article>

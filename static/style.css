@@ -15,7 +15,7 @@ p {
   padding-bottom:56.25%;
 }
 
-.ratio iframe {
+.ratio iframe, .ratio img {
   position: absolute;
   width:100%;
   height:100%;
@@ -26,6 +26,10 @@ p {
 #left h2, nav {
   text-align: center;
   width:307px;
+}
+
+nav {
+  padding: 5px 0px;
 }
 
 nav a {

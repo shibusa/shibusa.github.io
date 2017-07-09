@@ -1,14 +1,13 @@
 <h1>Other</h1>
 <article>
-  <h2><a href="https://github.com/shibusa/vagrantlab">Vagrant Lab (VirtualBox Lab 2.0)</a></h2>
-  <p><a href="https://www.vagrantup.com/">Vagrant</a> is an absolutely spectacular tool.  It works in conjunction with <a href="https://www.virtualbox.org/">VirtualBox</a> and helps me spin up multiple fully configured virtual machines in minutes.  With that I'm able to test out new infrastructure designs, new software, and continually improve on automation.</p>
+  <h2><a href="https://github.com/shibusa/vagrantlab">Vagrant Lab </a></h2>
+  <p><a href="https://www.vagrantup.com/">Vagrant</a> is an absolutely spectacular tool.  It works in conjunction with <a href="https://www.virtualbox.org/">VirtualBox</a> and helps me spin up multiple fully configured virtual machines in minutes.  With that I'm able to test out new infrastructure designs and software, develop new tools, and continually improve on automation.</p>
 
   <p>Right now I'm using it to simulate a production <a href="https://www.chef.io/chef/">Chef</a> and <a href="https://www.docker.com/">Docker</a> environment.  Each virtual machine will be thought of as a bare metal system.  One system serves as the Chef server and manages the other virtual machines on the OS level.  The remaining virtual machines will act as Chef clients with Docker running in swarm configuration.  This allows for the DevOps teams to maintain the systems and the developers to maintain the Docker containers as needed.</p>
 </article>
 
 <article>
-  <h2>VirtualBox Lab 1.0</h2>
-  <p><a href="https://github.com/shibusa/vboxguest">VirtualBox Guest machine script</a> - setup script for a Centos test server written in BASH</p>
-  <p><a href="https://github.com/shibusa/vboxvsrx">Juniper vSRX VirtualBox script</a> - Juniper vSRX virtual firewall VM setup in VirtualBox written in BASH</p>
-  <p>Old lab scripts to get virtual machines up and running faster.  VirtualBox Guest script has since been revised for Vagrant provisioning.</p>
+  <h2><a href="https://github.com/shibusa/vboxvsrx">Juniper vSRX VirtualBox script</a></h2>
+  <p>Based off of <a href="https://www.youtube.com/watch?v=SLU9DBj_zt0">Juniper's guide for creating a vSRX lab machine in VirtualBox</a>.  This automates the post Virtual Machine creation procedures outlined in the post <a href="https://youtu.be/SLU9DBj_zt0?t=4m">4 minute mark</a> for BASH enabled systems.</p>
+  <p>The vSRX is a fantastic sandbox for those interested in getting familiar with the JunOS command line and better understanding virtualized networking.</p>
 </article>

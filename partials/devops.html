@@ -1,5 +1,4 @@
 <h1>Dev Ops</h1>
-
 <article>
   <h2><a href="https://github.com/shibusa/cluster">Cluster</a></h2>
   <div class ="ratio">
@@ -19,21 +18,11 @@
 </article>
 
 <article>
-  <h2><a href="https://github.com/shibusa/multihost">multihost</a></h2>
+  <h2><a href="https://github.com/shibusa/webcluster">Automated Web Cluster Deploy</a><h2>
   <div class="ratio">
-    <iframe src="https://www.youtube.com/embed/MpfbppLUYtA?rel=0;autohide=1;showinfo=0;color=white;cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+    <a href="https://github.com/shibusa/webcluster"><img src="https://raw.githubusercontent.com/shibusa/webcluster/master/webcluster.png" alt="Web Cluster"></a>
   </div>
-  <p class="note">Best viewed in fullscreen.</p>
-  <p>BASH query tool written in Python.</p>
-  <p>multihost is designed to do quick queries across large infrastructures.  The tool is used to audit configuration inconsisties across multiple UNIX systems in pass.  This is the inspiration for the <a href="https://github.com/shibusa/bastion">Bastion project</a>.</p>
-</article>
-
-<article>
-  <h2><a href="https://github.com/shibusa/networkconfig">networkConfig</a></h2>
-  <div class="ratio">
-    <iframe src="https://www.youtube.com/embed/ElWGqvoCKp8?rel=0;autohide=1;showinfo=0;color=white;cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <p class="note">Best viewed in fullscreen.</p>
-  <p>Vendor neutral network device configurator written in Python.</p>
-  <p>networkConfig is designed to minimize time to write a config file for a network device.  End users are provided the flexibility to configure the tool to allow for network device vendors of all sorts (Cisco, Juniper, etc.).</p>
+  <p>Web cluster designed and deployed with <a href="https://www.vagrantup.com">Vagrant</a> and <a href="https://www.virtualbox.org">Virtualbox</a>.  Deploy focuses on automating spin up time for the <a href="https://github.com/shibusa/ghquery">GitHub Query</a> project and decoupling core components in preparation of scalability and high availability.</p>
+  <p><a href="https://nginx.org/en/">nginx</a> is used to respond to and loadbalance end user HTTP traffic.  It is also used to serve up front end static content.  The traffic is then passed to the webapp nodes running <a href="https://www.djangoproject.com">Django framework</a> and <href="https://uwsgi-docs.readthedocs.io/en/latest/#">uWSGI</a>.  Django is used to run the core logic of the webapp and uWSGI is used to take end user requests from the HTTP servers and pass it to Django.  Webappnodes then communicate with the <a href="https://www.postgresql.org">PostgreSQL database</a> for the apps' data.</p>
+  <p>Additional nodes to be put in on both the HTTP server layer as well as database layer to eliminate single points of failure.</p>
 </article>

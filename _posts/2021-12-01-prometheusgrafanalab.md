@@ -1,5 +1,13 @@
 ---
 title: "Prometheus + Grafana Lab"
+header:
+  overlay_image: /assets/images/grafana.png
+  overlay_filter: 0.80
+excerpt: >
+  Prometheus + Grafana monitoring via Docker
+  <br>
+  <br>
+  <br>
 categories:
   - blog
 tags:
